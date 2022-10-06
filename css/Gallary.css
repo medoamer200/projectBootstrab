@@ -1,0 +1,165 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    /* background-color: black; */
+    margin-bottom: 100px;
+}
+
+
+.backgroundcolor {
+    background-color: rgb(239, 250, 248);
+}
+
+.main {
+    width: 100%;
+    height: auto;
+    background-image: url(../images/00.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    /* background:fixed; */
+}
+
+.background {
+    color: rgb(192, 46, 46);
+}
+
+
+.layout {
+    width: 100%;
+    height: auto;
+    /*background-color: red;*/
+    text-align: center;
+    margin-top: 100px;
+}
+
+.layout h1 {
+    color: midnightblue;
+    font-size: 60px;
+    font-size: bold;
+    padding-top: 100px;
+
+}
+.layout h6{
+    margin-bottom: -24px;
+    margin-top: -67px;
+}
+
+/* .layout h2 {
+    color: blue;
+    font-size: 30px;
+    padding-bottom: 15px;
+    padding-top: 85px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+} */
+
+.layout p {
+    font-size: 25px;
+    color: black;
+
+}
+
+.btn {
+    border-radius: 20px;
+}
+
+/* for tablet */
+
+@media(max-width:768px) {
+
+    .layout h1 {
+        padding-top: 5px;
+        font-size: 35px;
+    }
+
+    .layout p {
+        font-size: 20px;
+    }
+    .layout h6{
+        margin-top: -59px;
+        margin-bottom: 2px;
+    }
+}
+
+/*-----------for mobile-------*/
+
+@media(max-width:600px) {
+
+    .layout h1 {
+        font-size: 41px;
+        padding-top: 30px;
+
+
+    }
+
+    .layout p {
+        font-size: 15px;
+
+    }
+
+  
+}
+
+
+
+.image {
+    overflow: hidden;
+}
+
+.image img {
+    transition: all 1s;
+}
+
+.image:hover img {
+    transform: scale(1.2, 1.2);
+}
+
+.card {
+    overflow: hidden;
+}
+
+.card .row {
+    transition: all 1s;
+}
+
+.card:hover .row {
+    background-color: white;
+}
+
+.image50 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+
+
+
+@media(max-width:768px) {
+
+    /* .images50{
+        margin-bottom: 50px;
+    } */
+
+    .text50 {
+        margin-top: 169px;
+    }
+}
+
+@media(max-width:600px) {
+
+
+    /* .images50{
+        width: 100%;
+        font-size: 100px;
+    } */
+    .text50 {
+        margin-top: -106px;
+    }
+}
